@@ -6,20 +6,24 @@ class Employee {
         this.id = id;
         this.email = email;
     }
-    employeeName() {
+    getName() {
         console.log(this.name, "is my name");
-        return this;
+        return this.name;
     }
-    employeeId() {
+    getId() {
         console.log(this.id, "is my id");
-        return this;
+        return this.id;
     }
-    employeeEmail() {
+    getEmail() {
         console.log(this.email, "is my email");
-        return this;
+        return this.email;
+    }
+    getRole() {
+        console.log(this.constructor.name);
+        return this.constructor.name;
     }
 
 }
 
 
-module.exports() = Employee
+module.exports = Employee;
