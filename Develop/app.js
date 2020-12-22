@@ -49,7 +49,6 @@ const internQuestions = [
 
 const engineerQuestions = [
     {
-        type: 'input',
         name: 'github',
         message: "Please provide your GitHub username: ",
     },
