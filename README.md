@@ -25,29 +25,29 @@ To run TPG, clone this repository onto your machine. Then, install it into a fil
 
 The images below go through the process of running TPG:
 1.) We first begin with running `node app.js`:
-![image1](Assets/TPGScreengrab1.png)
+![image1](Assets/TPGscreengrab1.png)
 
 2.) Then the user is prompted with what kind of employee that they want to add to their page. In the next images, you can see the functionality of how to select the information to generate an Engineer's page and an Intern's page 
-![image2](Assets/TPGScreengrab2.png) ![image3](Assets/TPGScreengrab3.png)
+![image2](Assets/TPGscreengrab2.png) ![image3](Assets/TPGscreengrab3.png)
 
 
-![image4](Assets/TPGScreengrab4.png) ![image6](Assets/TPGScreengrab6.png)
+![image4](Assets/TPGscreengrab4.png) ![image6](Assets/TPGscreengrab6.png)
 
 
-![image7](Assets/TPGScreengrab7.png) ![image8](Assets/TPGScreengrab8.png)
+![image7](Assets/TPGscreengrab7.png) ![image8](Assets/TPGscreengrab8.png)
 
 
 Each time you go through a series of prompts, you will be given the option to add another employee or category in the form of a yes or no question. The following picture shows what this looks like when a user selects "no", and the three employees are displayed:
 
-![image9](Assets/TPGScreengrab9.png)
+![image9](Assets/TPGscreengrab9.png)
 
 Once this happens, you will see a `team.html` document appear in the output folder, which will have your new information in a ready-to-go HTML file:
 
-![image10](Assets/TPGScreengrab10.png)
+![image10](Assets/TPGscreengrab10.png)
 
 Here, you could add some bootstrap styling, or you could even do this in teh `template.html` documents provided for each class. The end result after you load your browser is shown here:
 
-![image11](Assets/TPGScreengrab11.png)
+![image11](Assets/TPGscreengrab11.png)
 
 If you hire someone or add a new team member, the best part about TPG is that you're easily able to go through and generate it directly to your webpage, without having to navigate the HTML document.
 
