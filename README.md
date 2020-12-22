@@ -6,7 +6,7 @@
 
 - [Description](#Description)
 
-- [Video Demo](#Video)
+- [Video Demo](###Video)
 
 - [Installation and Usage](##Installation)
 
@@ -19,11 +19,11 @@
  ## Description:
 TeamProfileGenerator (TPG) is CLI application where a user can generate an HTML page for a team of collaborators or members of a company. Working with node.js and inquirer, TPG will prompt the user in the command line with a series of questions, beginning with a list of options about what sort of team member they might want to add to their page. In this application, the user is offered the choice of an "intern", "manager", or "engineer", all of which run off of a parent "employee" object that holds the basic details that a webpage would have for an employee (email, id, office number). Based on the selection in the first prompt, the user can select various other categories, such as a the university attended by an intern, the github username of an engineer, or the office number of a manager. The end result is a smooth and functional application that is easy to use and quick. Also, the template `<html>` files are styled in bootstrap, so it is very easy to customize a variety of factors about the overall look of the page. 
 
-    
- ## Installation and Usage:
 
- # Video Demo:
+### Video Demo:
 https://drive.google.com/file/d/1rIiRRF7kt-noHYt8tZL9AGgaEqhdQtLS/view
+
+ ## Installation and Usage:
                 
 To run TPG, clone this repository onto your machine. Then, install it into a file on your computer. TPG comes with gitignore so you don't have to install unnecessary items. Once you've got that going, open up your IDE (such as VS Code), and navigate to the application's folder. If you don't already have it, make sure you have `<Node.js>`, since TPG uses `<Node.js>`. Also, make sure to run an `npm i`, then install `inquirer` before you run the application. Check to make sure your `package.json` is installed to make sure this was all done successfully.
 
